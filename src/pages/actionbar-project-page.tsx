@@ -6,7 +6,7 @@ import {
 
 export default function ActionBarProjectPage() {
   return (
-    <Card className="bg-white h-1/3 p-4 drop-shadow-md ">
+    <Card className="bg-white h-1/3 p-4 rounded ">
       <div className="grid grid-cols-3 gap-2 h-full ">
         <div className="grid grid-rows-3 gap-2">
           <div></div>
@@ -27,7 +27,7 @@ export default function ActionBarProjectPage() {
         
         */}
         <div >    
-          <div className="grid grid-cols-2 grid-rows-2 justify-stretch gap-4 drop-shadow  w-full h-full p-2">
+          <div className="grid grid-cols-2 grid-rows-2 justify-stretch gap-4 drop-shadow  w-full h-full p-2 ">
              <div className="p-2 bg-lime-500 rounded text-center text-white font-bold">01</div>
              <div className="p-2 bg-cyan-500 rounded text-center text-white font-bold">02</div>
              <div className="p-2 bg-yellow-400 rounded text-center text-white font-bold">03</div>
@@ -37,7 +37,7 @@ export default function ActionBarProjectPage() {
 
         {/* Position Three */}
         <div>
-          <div className="grid grid-cols-2 gap-2 h-full">
+          <div className="grid grid-cols-2 gap-2 h-full rounded">
             <div className="bg-white drop-shadow rounded text-center text-black font-bold p-2">
               <h1>Project System</h1>
             </div>

@@ -77,6 +77,9 @@ const Todo: NextPage = () => {
           <div className="mt-8 flex items-center justify-between">
           <Link href="/createProject">Create Project</Link>
           </div>
+          <div className="mt-8 flex items-center justify-between">
+          <Link href="/home-page">Access to Homepage</Link>
+          </div>
 
 
         </div>

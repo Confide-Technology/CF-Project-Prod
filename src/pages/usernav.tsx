@@ -49,7 +49,7 @@ export default function UserNav() {
           </DropdownMenuItem>
           <DropdownMenuItem>
             <PlusCircle className="mr-2 h-8 w-5" />
-            <span>Back End Settings</span>
+            <Link href="/"><span>Back End Settings</span></Link>
           </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
